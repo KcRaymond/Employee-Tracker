@@ -1,0 +1,28 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "Terminal log for tracking employees",
+  "main": "server.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KcRaymond/Employee-Tracker.git"
+  },
+  "keywords": [
+    "mysql",
+    "inquirer"
+  ],
+  "author": "Kc Raymond",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KcRaymond/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/KcRaymond/Employee-Tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1"
+  }
+}
