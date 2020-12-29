@@ -4,15 +4,15 @@ INSERT INTO department (name) VALUES ('Sales');
 INSERT INTO department (name) VALUES ('Marketing');
 INSERT INTO department (name) VALUES ('Administration');
 
-INSERT INTO role (title, salary) VALUES ('Graphic Artist', '40000');
-INSERT INTO role (title, salary) VALUES ('Art Director', '75000');
-INSERT INTO role (title, salary) VALUES ('Accountant', '60000');
-INSERT INTO role (title, salary) VALUES ('Sales Rep', '40000');
-INSERT INTO role (title, salary) VALUES ('Sales Manager', '60000');
-INSERT INTO role (title, salary) VALUES ('Marketing Manager', '40000');
+INSERT INTO role (title, salary, department_id) VALUES ('Graphic Artist', '40000', 2);
+INSERT INTO role (title, salary, department_id) VALUES ('Art Director', '75000', 2);
+INSERT INTO role (title, salary, department_id) VALUES ('Accountant', '60000', 1);
+INSERT INTO role (title, salary, department_id) VALUES ('Sales Rep', '40000', 3);
+INSERT INTO role (title, salary, department_id) VALUES ('Sales Manager', '60000', 3);
+INSERT INTO role (title, salary, department_id) VALUES ('Marketing Manager', '40000', 4);
 
-INSERT INTO employee (first_name, last_name) VALUES ('Kasey', 'Raymond');
-INSERT INTO employee (first_name, last_name) VALUES ('Cyrus', 'Weeks');
-INSERT INTO employee (first_name, last_name) VALUES ('Jessie', 'Rogers');
-INSERT INTO employee (first_name, last_name) VALUES ('Patrick', 'Wokurka');
-INSERT INTO employee (first_name, last_name) VALUES ('Mark', 'Ribolzi');
+INSERT INTO employee (first_name, last_name, role_id) VALUES ('Kasey', 'Raymond', 2);
+INSERT INTO employee (first_name, last_name, role_id) VALUES ('Cyrus', 'Weeks', 1);
+INSERT INTO employee (first_name, last_name, role_id) VALUES ('Jessie', 'Rogers', 3);
+INSERT INTO employee (first_name, last_name, role_id) VALUES ('Patrick', 'Wokurka', 4);
+INSERT INTO employee (first_name, last_name, role_id) VALUES ('Mark', 'Ribolzi', 4);
