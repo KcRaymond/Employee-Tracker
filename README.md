@@ -25,6 +25,7 @@ To install necessary dependencies run the following command:
 ## Usage Information:
 
 Node.js must be installed and all dependencies installed for inquirer, mysql, asciiart-logo, and console.table. Schema.sql and seed.sql code must be pasted in MySqlWorkbench to create the required database structure. Input of own MySql user and password credentials required to connect to database. To invoke the application you need to enter node server.js in the terminal.
+Link to application demo - https://drive.google.com/file/d/1tkVkh2aohZNw55vGmUs5ByjAZj5wK-uN/view
 
 ## Contributing Information:
 
