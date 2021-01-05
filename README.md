@@ -38,7 +38,7 @@ To run tests, run the following command:
 
 ## Questions:
 
-> <img src="./assets/App-screenshot.jpg"></img>
+> <img src="https://github.com/KcRaymond/Employee-Tracker/blob/master/Assets/App-screenshot.jpg"></img>
 
 ---
 
